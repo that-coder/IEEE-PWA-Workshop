@@ -6,9 +6,9 @@ Nodejs > 8
 $ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 $ sudo apt-get install -y nodejs
 ```
-VSCode
-Postman
-SQLite
+1. VSCode
+2. Postman
+3. SQLite
 ```
 $ sudo apt-get install zlib1g:i386
 $ #or
