@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Recipe App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Recipe App</h1>
+    <div class="add">
+      <button id="app-add-btn">Add New</button>
+    </div>
+
+
+    <div class="row">
+      <div class="col list">
+        <ul id="app-recipe-list">
+          <!-- <li>Chicken Stew</li>
+          <li>Beef Stew</li> -->
+        </ul>
+      </div>
+
+      <div class="col selected">
+        <h2 style="margin-left: 10px;" id="app-operation-text">Selected</h2>
+        <form action="javascript:void(0);">
+          <label for="recipe-name">Name</label>
+          <br />
+          <input type="text" id="app-recipe-name" />
+
+          <br />
+          <br />
+
+          <label for="recipe-steps">Steps</label><br />
+          <textarea name="recipe-steps" id="app-recipe-steps" cols="35" rows="10">
+          </textarea>
+
+          <br />
+          <br />
+
+          <button id="app-recipe-operation-btn">Update</button>
+        </form>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
